@@ -1,0 +1,8 @@
+section{
+  min-height: 420px;
+}
+
+.jumbotron{
+  background-image: url("../img/bg.jpg");
+  background-size:cover;
+}
