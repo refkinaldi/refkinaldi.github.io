@@ -354,6 +354,13 @@ img {
 .contact__desc {
   padding: auto;
 }
+@media screen and (max-width: 768px) {
+  .contact__list {
+    width: 94%;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+}
 
 /* ===== FOOTER =====*/
 .footer {
@@ -451,9 +458,6 @@ img {
   }
   .contact__container {
     justify-items: center;
-  }
-  .contact__list {
-    width: 100%;
   }
 }
 
